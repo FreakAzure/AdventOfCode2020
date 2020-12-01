@@ -1,7 +1,6 @@
 package DayOne
 
 class Day1() {
-
     val input = arrayListOf<Int>(1470,
         1577,
         1054,
@@ -209,7 +208,7 @@ class Day1() {
         for (firstNumber in input) {
             for (secondNumber in input) {
                 for (thirdNumber in input) {
-                    if (firstNumber + secondNumber + thirdNumber == 2020) {
+                    if (firstNumber + secondNumber + thirdNumber == objective) {
                         result = firstNumber * secondNumber * thirdNumber
                     }
                 }
